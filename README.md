@@ -10,9 +10,9 @@
 
 ### [Instalace na Windows](#windows)
 
-### [Video na YouTube](#youtube)
-
 ### [DŮLEŽITÉ KROKY při používání aplikace FileZilla v budoucnu](#impfz)
+
+### [Video na YouTube](#youtube)
 
 -- -- --
 

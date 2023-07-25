@@ -204,7 +204,7 @@
 -- -- --
 <a name="youtube"><h2>Níže naleznete videonávod pro instalaci a práci s FileZillou v počítači Mac po jednotlivých krocích:</h2></a>
 
-[![Watch the video](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/26f06e9f-345c-402a-8221-45bcfa2168bd)](https://www.youtube.com/watch?v=rX1lpdObLOQ)
+[![Watch the video](https://user-images.githubusercontent.com/73190129/256059107-9c9a4db4-6c67-4baf-836f-a1334f8acd2d.png)](https://www.youtube.com/watch?v=rX1lpdObLOQ)
 
 
 

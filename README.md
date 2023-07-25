@@ -6,17 +6,17 @@
 
 ## Obsah
 
-### [Instalace na macOS](#macOS)
+### [Instalace na macOS](#macos)
 
-### [Instalace na Windows](#Windows)
+### [Instalace na Windows](#windows)
 
 ### [Video na YouTube](#youtube)
 
-### [DŮLEŽITÉ KROKY při používání aplikace FileZilla v budoucnu](#impFileZilla)
+### [DŮLEŽITÉ KROKY při používání aplikace FileZilla v budoucnu](#impfz)
 
 -- -- --
 
-<a name="macOS"><h2>Instalace na macOS (Program pracuje s čipem M1)</h2></a>
+<a name="macos"><h2>Instalace na macOS (Program pracuje s čipem M1)</h2></a>
 
 1) Nejprve se připojte k serveru pomocí příkazu `ssh username@wa.toad.cz`. Dále, pokud se objeví **Are you sure you want to continue connecting (yes/no/[fingerprintl)?** napište **yes** a stiskněte Enter. 
 
@@ -109,7 +109,7 @@
 <img width="939" alt="16__telnet" src="https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/a5a7a4bd-1644-4b68-9cbe-7f5a80709c7f">
 -- -- --
 
-<a name="Windows"><h2>Instalace na Windows</h2></a>
+<a name="windows"><h2>Instalace na Windows</h2></a>
 
 1) Nejprve nainstalujte **terminál Ubuntu** (odkaz ke stažení z oficiálních stránek: `https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV`).
 
@@ -187,7 +187,7 @@
 ![](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/f7c42388-dafd-4c3d-8872-6fb1fe88bc00)
 
 -- -- --
-<a name="impFileZilla"><h2>DŮLEŽITÉ KROKY při používání aplikace FileZilla v budoucnu</h2></a>
+<a name="impfz"><h2>DŮLEŽITÉ KROKY při používání aplikace FileZilla v budoucnu</h2></a>
 
 #### 1) Při dlouhodobém používání aplikaci FileZilla, budeme soubory spouštět kliknutím pravým tlačítkem myši na soubor a výběrem možnosti Zobrazit/Upravit (View/Edit).
 
@@ -204,7 +204,9 @@
 -- -- --
 <a name="youtube"><h2>Níže naleznete videonávod pro instalaci a práci s FileZillou v počítači Mac po jednotlivých krocích:</h2></a>
 
-[![Watch the video](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/1cc01ce0-0a82-4c1f-b337-7cf4e4273729)](https://www.youtube.com/watch?v=rX1lpdObLOQ)
+[![Watch the video](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/26f06e9f-345c-402a-8221-45bcfa2168bd)](https://www.youtube.com/watch?v=rX1lpdObLOQ)
+
+
 
 -- -- --
 #### To je ode mě všechno! Doufám, že Vám tento popis pomůže pochopit tuto aplikaci!

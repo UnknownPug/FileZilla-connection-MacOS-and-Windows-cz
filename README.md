@@ -2,7 +2,7 @@
 
 ## Autor: Dmitrij Rastvorov
 
-## Tento popis slouží studentům k připojení k serveru wa.toad.cz pomocí aplikaci FileZilla na počítačích Mac a Windows.
+## Tento popis slouží studentům k připojení k serveru zwa.toad.cz pomocí aplikaci FileZilla na počítačích Mac a Windows.
 
 ## Obsah
 
@@ -18,7 +18,7 @@
 
 <a name="macos"><h2>Instalace na macOS (Program pracuje s čipem M1)</h2></a>
 
-1) Nejprve se připojte k serveru pomocí příkazu `ssh username@wa.toad.cz`. Dále, pokud se objeví **Are you sure you want to continue connecting (yes/no/[fingerprintl)?** napište **yes** a stiskněte Enter. 
+1) Nejprve se připojte k serveru pomocí příkazu `ssh username@zwa.toad.cz`. Dále, pokud se objeví **Are you sure you want to continue connecting (yes/no/[fingerprintl)?** napište **yes** a stiskněte Enter. 
 
 <img width="1302" alt="1__ssh_username_wa toad cz" src="https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/965c88af-7760-424d-9873-19a58471d201">
 
@@ -26,7 +26,7 @@
 
 ### (password - Vaše uživatelské heslo na ČVUT)
 
-2) V novém okně prohlížeče zadejte do vyhledávacího pole `http://wa.toad.cz/~username/` , kde se zobrazí chyba 404 s popisem (nebo 403 Forbidden).
+2) V novém okně prohlížeče zadejte do vyhledávacího pole `http://zwa.toad.cz/~username/` , kde se zobrazí chyba 404 s popisem (nebo 403 Forbidden).
 
 ![](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/8bf8dc33-a9b8-4bf3-9af2-b29a4e593e35)
 
@@ -46,7 +46,7 @@
 
 6) Spusťte FileZillu a udělte ji oprávnění v případě, že si to program vyžádá.
 
-7) V levém horním poli **Host** napište adresu, kterou budeme používat v tomto předmětu: `sftp://wa.toad.cz`. Poté do pole **Username** napište přihlašovací jméno ČVUT a do pole **Password** napište Vaše uživatelské heslo ČVUT. Po vyplnění všech tří sloupců klikněte na tlačítko **Quickconnect**.
+7) V levém horním poli **Host** napište adresu, kterou budeme používat v tomto předmětu: `sftp://zwa.toad.cz`. Poté do pole **Username** napište přihlašovací jméno ČVUT a do pole **Password** napište Vaše uživatelské heslo ČVUT. Po vyplnění všech tří sloupců klikněte na tlačítko **Quickconnect**.
 
 (Pokud se Vaše složka nezobrazuje, klikněte znovu na Quickconnect a program Vaši složku zobrazí)
 
@@ -99,12 +99,12 @@
 
 ![](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/1963577d-0758-4d98-8c86-d173dac38b43)
 
-18) Otevřete stránku serveru wa.toad.cz a znovu ji načtěte **(Cmd + R)**. Pak se zobrazí text, který byl napsán v index.html, nebo se zobrazí složka 01, kde se nachází soubor index.html. Pokud se vrátíme na stránku, uvidíme složku 01, kde se nachází soubor index.html.
+18) Otevřete stránku serveru zwa.toad.cz a znovu ji načtěte **(Cmd + R)**. Pak se zobrazí text, který byl napsán v index.html, nebo se zobrazí složka 01, kde se nachází soubor index.html. Pokud se vrátíme na stránku, uvidíme složku 01, kde se nachází soubor index.html.
 
 ![](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/8c7cfff7-4bcd-4aef-adf7-a59ef6e44ab3)
 ![](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/5fca0fd2-c639-4a2d-a7fa-1e1b1053b8e0)
 
-19) Pokud otevřeme terminál a zadáme `telnet wa.toad.cz 80`, napíšeme `GET / HTTP/1.0` a **dvakrát stiskneme Enter**, vidíme, že spojení skutečně existuje a že vše funguje!
+19) Pokud otevřeme terminál a zadáme `telnet zwa.toad.cz 80`, napíšeme `GET / HTTP/1.0` a **dvakrát stiskneme Enter**, vidíme, že spojení skutečně existuje a že vše funguje!
 
 <img width="939" alt="16__telnet" src="https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/a5a7a4bd-1644-4b68-9cbe-7f5a80709c7f">
 -- -- --
@@ -113,7 +113,7 @@
 
 1) Nejprve nainstalujte **terminál Ubuntu** (odkaz ke stažení z oficiálních stránek: `https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV`).
 
-2) Poté otevřete Ubuntu a do terminálu zadejte příkaz `ssh username@wa.toad.cz`. Dále potvrďte připojení **Are you sure you want to continue connecting (yes/no/[fingerprintl)?** napište **yes** a stiskněte Enter.
+2) Poté otevřete Ubuntu a do terminálu zadejte příkaz `ssh username@zwa.toad.cz`. Dále potvrďte připojení **Are you sure you want to continue connecting (yes/no/[fingerprintl)?** napište **yes** a stiskněte Enter.
 
 ### (username - Vaše přihlašovací jméno na ČVUT)
 
@@ -148,7 +148,7 @@
 
 ![](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/a6e812e4-02d8-4c30-b522-4eba5e59bbd5)
 
-10) V levém horním poli Host napište adresu, kterou budeme používat v tomto předmětu: sftp://wa.toad.cz. Poté do pole Username napište přihlašovací jméno ČVUT a do pole Password napište Vaše uživatelské heslo ČVUT. Po vyplnění všech tří sloupců klikněte na tlačítko Quickconnect.
+10) V levém horním poli Host napište adresu, kterou budeme používat v tomto předmětu: sftp://zwa.toad.cz. Poté do pole Username napište přihlašovací jméno ČVUT a do pole Password napište Vaše uživatelské heslo ČVUT. Po vyplnění všech tří sloupců klikněte na tlačítko Quickconnect.
 
 11) Poté se zobrazí okno s žádostí o uložení zadávaných údajů, abyste je nemuseli zadávat znovu. Vyberte Vámi preferovanou možnost a stiskněte tlačítko **OK**.
 
@@ -193,7 +193,7 @@
 
 ![](https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/fad85baf-9a65-45c4-acf5-72a140ab2dd3)
 
-#### 2) Při nahrávání semestrálního projektu na server wa.toad.cz je možné nahrávat z lokálního počítače. Za tímto účelem vyhledejte složku s projektem v levém okně a přeneste ji na server, jak je uvedeno na obrázku:
+#### 2) Při nahrávání semestrálního projektu na server zwa.toad.cz je možné nahrávat z lokálního počítače. Za tímto účelem vyhledejte složku s projektem v levém okně a přeneste ji na server, jak je uvedeno na obrázku:
 
 <img width="1440" alt="13_Next_usage" src="https://github.com/UnknownPug/FileZilla-connection-MacOS-and-Windows-cz/assets/73190129/fc8b42df-7fc2-4cc2-b384-e0f6fe970285">
 
